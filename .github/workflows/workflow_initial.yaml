@@ -1,0 +1,7 @@
+name: Examine the workflow
+on: push
+jobs:
+  echo_hello:
+    runs-on: temp_vm
+    steps:
+      - run: echo "Hello"
